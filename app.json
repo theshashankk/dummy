@@ -1,0 +1,73 @@
+{
+    "name": "Vision - UserBot",
+    "description": "An Advance Fastes, userbot for telegram ",
+    "logo": "http://telegra.ph//file/5eda79c18f7079f1078d7.jpg",
+    "keywords": [
+     "telegram",
+     "userbot",
+     "modular",
+     "productivity"
+    ],
+    "repository": "https://github.com/TeamZenx/Vision",
+    "website": "https://github.com/TeamZenx/Vision",
+    "success_url": "https://t.me/vision_support",
+    "stack": "container",
+    "env": {
+     "OWNER_NAME": {
+      "description": "Your user name or only name will also work.",
+      "value": "TRUE"
+     },
+     "TG_APP_ID": {
+      "description": "Get this value from https://replit.com/@TeamZenX/VisionAppScrapper#main.py! Please do not steal",
+      "value": ""
+     },
+     "TG_API_HASH": {
+      "description": "Get this value from https://replit.com/@TeamZenX/VisionAppScrapper#main.py Please do not steal",
+      "value": "",
+      "required": true
+     },
+     "STRING_SESSION": {
+      "description": "https://replit.com/@TeamZenX/VisionSessionGen get string session from here",
+      "value": ""
+     },
+        
+      "MONGO_DB_URL": {
+      "description": "https://www.mongodb.com/ Get this by making a cluster ",
+      "value": "",
+       "required": true
+     },
+        
+
+
+
+   
+
+
+     "TG_BOT_USER_NAME": {
+      "description": "This is automated will done automatically after deploy go ahead further",
+      "value": "xyz",
+      "required": false
+   },
+     "TG_BOT_TOKEN": {
+      "description": "This is automated will done automatically after deploy go ahead furthet",
+      "value": "xyz",
+      "required": false
+   },
+
+     "HEROKU_APP_NAME": {
+      "description": "Same app name of your created heroku application ",
+      "value": "",
+      "required": true
+   },
+     "HEROKU_API_KEY": {
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work. ",
+      "value": "",
+      "required": true
+   },
+     "ENVIORMENT": {
+        "description": "IGNORE!",
+        "value": "HEROKU",
+        "required": false
+     }
+    }
+}
